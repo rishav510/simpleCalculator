@@ -9,7 +9,7 @@
     height: 500px;
     position: absolute;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -18,14 +18,14 @@
     border: 5px solid black;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,.7);
-    
+    grid-template-areas: ""
     
 }
 
 .displayScreen{
     background-color: rgb(94, 73, 73);
     color: white;
-    grid-column: span 3;
+    grid-column: span 4;
     padding: 0 10px ;
     font-size: 2em;
     height: 50px;
@@ -41,7 +41,7 @@
 }
 
 #clear{
-    grid-row: 2 span;
+    
     color: red;
     background-color: rgb(255, 255, 255);
     transition-property: background-color;
