@@ -41,7 +41,7 @@
 }
 
 #clear{
-
+    grid-row: 2 span;
     color: red;
     background-color: rgb(255, 255, 255);
     transition-property: background-color;
